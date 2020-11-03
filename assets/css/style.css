@@ -113,15 +113,15 @@
 /* ex. 10 icon */
 .ex-10-icon {
     font-size: 60px;
-    animation: spin 2s linear infinite;
+    animation: rotate 2s linear infinite;
 }
 
-@keyframes spin {
+@keyframes rotate {
     0% {transform: rotate(360deg);}
     25% {transform: rotate(270deg);}
     50% {transform: rotate(180deg);}
     75% {transform: rotate(90deg);}
-    100% {transform: rotate(0);}
+    100% {transform: rotate(0deg);}
 }
 /* ex. /10 icon */
 
@@ -214,5 +214,5 @@
     75% {right: 0; bottom: 100%;}
     90% {right: -15px; bottom: -10px;}
     100% {right: 20%; bottom: -10px;}
-}     
+}
 /* /ex. 12 e 13 button */
