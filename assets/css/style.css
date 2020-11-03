@@ -125,10 +125,23 @@
 }
 /* ex. /10 icon */
 
-
+/* ex. 11 icon */
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: spin 2s linear;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+}
+/* /ex. 11 icon */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
